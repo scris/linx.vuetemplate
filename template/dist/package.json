@@ -1,0 +1,11 @@
+{
+  "name": "{{ name }}",
+  "version": "{{ appver }}",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
+  "license": null,
+  "main": "electron.js",
+  "devDependencies": {
+    "electron": "^3.0.2"
+  }
+}
