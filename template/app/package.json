@@ -9,7 +9,6 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Dominik Qiu <slaaker@126.com>",
     "dependencies": {
         "cordova-browser": "^5.0.4",
         "cordova-plugin-dialogs": "^2.0.1",
