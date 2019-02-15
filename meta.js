@@ -78,9 +78,9 @@ module.exports = {
     },
     plugins: {
       type: 'checkbox',
-      message: 'Select which Vue plugins to install',
-      choices: ['axios', 'vue-router', 'vuex'],
-      default: ['axios', 'vue-router', 'vuex']
+      message: 'Select which Vue plugins to install (must use vue-router)',
+      choices: ['axios', 'vuex'],
+      default: ['axios', 'vuex']
     },
     eslint: {
       type: 'confirm',
@@ -108,7 +108,6 @@ module.exports = {
       let output = ''
       let dependencies = {
         'axios': '^0.18.0',
-        'vue-router': '^3.0.1',
         'vuex': '^3.0.1',
       }
 
@@ -128,7 +127,6 @@ module.exports = {
     }
   },
   filters: {
-    'src/router/**/*': 'plugins[\'vue-router\']',
     'test/e2e/**/*': 'e2e',
     'test/unit/**/*': 'unit',
     '.eslintignore': 'eslint',

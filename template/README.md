@@ -8,12 +8,12 @@
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # cordova setup
 # first edit the project name in app/config.xml
 cd app
-npm install
+yarn
 cordova platform add ios
 cordova platform add android
 cordova platform add browser
@@ -21,21 +21,6 @@ cordova platform add browser
 
 # Then
 
-Then edit your information in:
-
-```bash
-# edit for vue
-package.json
-
-# edit README
-README.md
-
-# edit for cordova
-app/package.json
-
-# edit for electron
-dist/package.json 
-```
 Now it is time to build your web app.
 
 Just use it like using vue-cli. (with vue-router)

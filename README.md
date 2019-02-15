@@ -8,5 +8,4 @@
 vue init scris/linx.vuetemplate myproj
 ```
 
----
-Dominik Qiu from Scris Studio 
+by Dominik Qiu from Scris Studio 
